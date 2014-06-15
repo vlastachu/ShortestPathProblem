@@ -7,10 +7,10 @@ Input file contains edges weights description from left-top to right-bottom.
 
 How to execute
 -------------
-    >сabal update
-    >cabal install cabal-install
-    >cabal install diagrams diagrams-svg
-    >runghc src/graph.hs example/input.txt -w 1000 -o out.svg
+    сabal update
+    cabal install cabal-install
+    cabal install diagrams diagrams-svg
+    runghc src/graph.hs example/input.txt -w 1000 -o out.svg
 
 Example input
 ------------
@@ -33,3 +33,4 @@ Example input
 
 Example output
 --------------
+![output.png](https://raw.githubusercontent.com/vlastachu/ShortestPathProblem/master/example/out.png)
